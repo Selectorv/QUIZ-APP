@@ -44,6 +44,7 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 restart_quiz.onclick = ()=>{
     result_box.classList.remove("activeResult");
     quiz_box.classList.add("activeQuiz");
+
     let que_count = 0;
     let que_numb = 1;
     let timeValue = 15;
@@ -108,6 +109,7 @@ function showQuestions(index){
     }
 }
 
+
 let tickIcon = '<div class="icon tick"><i class="fa-sharp fa-solid fa-circle-check"></i></div>';
 let crossIcon =  '<div class="icon cross"><i class="fa-solid fa-times"></i></div>';
 
@@ -116,10 +118,12 @@ function optionSelected(answer){
     clearInterval(counter);
     clearInterval(counterLine);
     let userAns = answer.textContent;
+    
     let correctAns = questions[que_count].answer;
     let allOptions = option_list.children.length;
     if(userAns == correctAns){
-        userScore += 1;
+        userScore +=1
+    
         console.log( userScore);
         answer.classList.add("correct");
         console.log("answer is correct");
@@ -132,9 +136,9 @@ function optionSelected(answer){
         
 
         //if answers is incorrect then automatically selected the correct answer
-        for (let i = 0; i < allOptions; i++) {
+        for (let i=0; i<allOptions.length; i++) {
             if(option_list.children[i].textContent == correctAns){
-                option_list.children[i].setAttribute("class", "option correct");
+                option_list.children[i].setAttribute("class", "option");
                 option_list.children[i].insertAdjacentHTML("beforeend", tickIcon);
 
             }

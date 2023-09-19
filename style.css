@@ -1,6 +1,6 @@
 /*importing google fonts */
 /*@import url('https://fonts.googleapis.com/css2?family=Popins:wght@200;300;400;500;600;');*/
-@import url("https://fonts.googleapis.com/css?family=Popins:wght@200;300;400;500;600;");
+@import url("https://fonts.googleapis.com/css?family=Popins:wght@200;300;400;50url0;600;");
 
 *{
     margin: 0;
@@ -9,8 +9,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color:  rgb(7, 41, 7);
-
+    background: #b8daff;
 
 }
 
@@ -41,7 +40,7 @@ body{
     font-size: 25px;
     font-weight: 500;
     color:solid rgb(1, 22, 1);
-    padding: 15px 30px;
+    padding: 16px 20px;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -51,7 +50,7 @@ body{
 }
 .info_box{
     width: 540px;
-    background: #fff;
+    background:  rgb(179, 236, 179);
     border-radius: 2px;
     opacity: 0;
     pointer-events: none;
