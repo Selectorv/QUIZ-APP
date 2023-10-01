@@ -261,12 +261,13 @@ section .option_list .option:hover{
 
 
 .container{
-    width: 100vh;
+    width: 100%;
     height: 100vh;
-    background: #ffffff;
+    background: #f1f1f1;
     border: 1px solid white;
     display: fixed;
     top: 0px;
+    place-items: center;
 }
 .confetti-container{
     perspective: 700px;
@@ -355,14 +356,20 @@ section .option_list .option:hover{
     top: 75px;
     position: absolute;
 }
+.result_box .icon a{
+    min-width: 100%;
+    margin-left: 0;
+}
 
 .result_box{
     font-size: 20px;
     color: goldenrod;
-    margin-left: auto;
-    margin-left: auto;
+    margin-left: 10px;
+    place-items: center;
+    
     
 }
+
 
     
     
@@ -439,9 +446,29 @@ section .option_list .option:hover{
     cursor: pointer;
     transition: all 2s ease-out;
     transition: all .2s ease-out;
+    align-items: center;
 }
 .submit-btn:hover{
     background-color: #2ca893;
     transition: all .2s ease-out;
+    
+}
+@media(max-width:700px){
+    .result_box .icon a{
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .result_box .icon video{
+        place-items: center;
+        max-width: 500px;
+        height: 400px;
+        
+    }
+    .checkmark-circle .checkmark .background{
+        
+        margin-left: 0;
+        padding-left: 0;
+        place-items: center;
+    }
     
 }
