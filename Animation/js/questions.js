@@ -6,9 +6,9 @@ let questions = [
         question:"what is react?",
         answer:"javascript library",
         options:[
-            "Hyper Text Markup Language",
-             "javascript library",
-             "Hyper Text Multi Language",
+            " a, Hyper Text Markup Language",
+             " b,javascript library",
+             "c, Hyper Text Multi Language",
              "Hyper Tool Multi Language"
         ]
     },

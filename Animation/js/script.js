@@ -103,14 +103,14 @@ function showQuestions(index){
     option_list.innerHTML = option_tag;
 
     const option = option_list.querySelectorAll(".option");
-    for (let i = 0; i < option.length; i++) {
+    for (let i=0; i < option.length; i++) {
         option[i].setAttribute("onclick", "optionSelected(this)");
     }
 }
 
 let tickIcon = '<div class="icon tick"><i class="fa-sharp fa-solid fa-circle-check"></i></div>';
 let crossIcon =  '<div class="icon cross"><i class="fa-solid fa-times"></i></div>';
-
+let answer
 
 function optionSelected(answer){
     clearInterval(counter);

@@ -2,57 +2,57 @@
 let questions = [
     {
         numb: 1,
-        question:"what does HTML stand for?",
-        answer:"Hyper Text Markup Language",
+        question:"Which is the largest continet on planet Earth?",
+        answer:"Asia",
         options:[
-            "Hyper Text Markup Language",
-             "Hyper Text Preprocessor",
-             "Hyper Text Multi Language",
-             "Hyper Tool Multi Language"
+            "Europe",
+             "Asia",
+             "Africa",
+             "America"
         ]
     },
     {
         numb: 2,
-        question:"What does CSS stand for?",
-        answer:"Cascanding Style Sheet",
+        question:"Who was the founder of microsoft company ?",
+        answer:"Bill Gates",
         options:[
-            "Common Style Sheet",
-            "Colourful Style  Sheet",
-            "Computer Style Sheet",
-            "Cascanding Style Sheet"
+            "Elon Musk",
+            " Steve Jobs",
+            "Mark Zukerburg",
+            "Bill Gates"
         ]
     },
     {
         numb: 3,
-        question:"What does PHP stand for?",
-        answer:"Hypertext Preprocessor",
+        question:"Who was the African leader who was involved in aperthaid",
+        answer:"Nelson Mandela",
         options:[
-            "Hypertext Preprocessor",
-            "Hypertext Programming",
-            "Hypertext Preprogramming",
-            "Programming Hyper Processor"
+            "Nelson Mandela",
+            "Muamar Gaddafi",
+            "Jomo Kenyatta",
+            "Olesegun Obasanjo"
         ]
     },
     {
         numb: 4,
-        question:"What does SQL stand for?",
-        answer:"Structured Querry Language",
+        question:"Amazon forest is found in which country?",
+        answer:"Russia",
         options:[
-            "Simple Querry  Language",
-            "Style Programming Language",
-            "Standard Querry Language",
-            "Structured Querry Language"
+            "Australia",
+            "Botswana",
+            "China",
+            "Russia"
         ]
     },
     {
         numb: 5,
-        question:"What does XML stand for?",
-        answer:"eXtensible Markup Language",
+        question:"Which type of food is both fruit and Vegetable?",
+        answer:"Banana",
         options:[
-            "eXtensible Markup  Language",
-            "eXecutable Multiple Language",
-            "eXTra Multi-program Language",
-            "eXamine Multiple  Language"
+            "Arrow root",
+            "Banana",
+            "Tomatos",
+            "Spinach"
         ]
     },
 
