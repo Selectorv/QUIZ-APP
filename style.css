@@ -9,6 +9,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
+<<<<<<< HEAD
     width: 100%;
     background-image: url(../IMAGE2/dc1cea356f3e87a64d470ab204798c2e.jpg ) ;
     background-repeat: no-repeat;
@@ -16,6 +17,9 @@ body{
     background-position: top;
     
 
+=======
+    background: #b8daff;
+>>>>>>> e771176ab74c750f4fd2713f72497c73fe13e10d
 
 }
 

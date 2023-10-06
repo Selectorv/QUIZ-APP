@@ -124,7 +124,11 @@ function optionSelected(answer){
     if(userAns == correctAns){
         userScore +=1
     
+<<<<<<< HEAD
         console.log( userScore);
+=======
+        console.log( "userScore");
+>>>>>>> e771176ab74c750f4fd2713f72497c73fe13e10d
         answer.classList.add("correct");
         console.log("answer is correct");
         answer.insertAdjacentHTML("beforeend", tickIcon);
