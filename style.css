@@ -9,18 +9,12 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-<<<<<<< HEAD
+
     width: 100%;
-    background-image: url(../IMAGE2/dc1cea356f3e87a64d470ab204798c2e.jpg ) ;
+    background-color: #d6eaff;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    
-
-=======
-    background: #b8daff;
->>>>>>> e771176ab74c750f4fd2713f72497c73fe13e10d
-
 }
 
 .start_btn,
@@ -110,7 +104,7 @@ body{
     
 }
 .buttons button.restart{
-    color: black;
+    color: #007bff;
     
 }
 .buttons button.restart:hover{
@@ -124,7 +118,7 @@ body{
     
 }
 .buttons button.quit:hover{
-    background: red;
+    background: #007bff;
     color: white;
     font-size: 18px;
     
